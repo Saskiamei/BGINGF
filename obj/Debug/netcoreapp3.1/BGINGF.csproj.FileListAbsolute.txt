@@ -1,0 +1,24 @@
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\background 1.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\background2.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\BGINGF.exe
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\BGINGF.deps.json
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\BGINGF.runtimeconfig.json
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\BGINGF.runtimeconfig.dev.json
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\BGINGF.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\BGINGF.pdb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\MonoGame.Framework.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libSDL2-2.0.so.0
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libopenal.so.1
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\osx\native\libSDL2-2.0.0.dylib
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\osx\native\libopenal.1.dylib
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\SDL2.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\soft_oal.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\SDL2.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\soft_oal.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.AssemblyInfoInputs.cache
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.AssemblyInfo.cs
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.csproj.CoreCompileInputs.cache
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.csproj.CopyComplete
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.dll
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.pdb
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.genruntimeconfig.cache
