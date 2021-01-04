@@ -22,3 +22,5 @@ C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.csproj.
 C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.dll
 C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.pdb
 C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.genruntimeconfig.cache
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\bgingf.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.csprojAssemblyReference.cache
