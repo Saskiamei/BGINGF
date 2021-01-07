@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png</SourceFile>
-  <SourceTime>2021-01-03T18:11:21.4634012+00:00</SourceTime>
+  <SourceTime>2021-01-04T16:23:14.4705603+00:00</SourceTime>
   <DestFile>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/bgingf.xnb</DestFile>
-  <DestTime>2021-01-03T18:13:57.0028449+00:00</DestTime>
+  <DestTime>2021-01-06T17:36:48.6842154+00:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

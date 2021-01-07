@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SourceFile>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wearethrowingitin.mp3</SourceFile>
+  <SourceTime>2021-01-06T17:30:24.8493072+00:00</SourceTime>
+  <DestFile>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/wearethrowingitin.xnb</DestFile>
+  <DestTime>2021-01-06T17:36:49.4721337+00:00</DestTime>
+  <Importer>Mp3Importer</Importer>
+  <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
+  <Processor>SongProcessor</Processor>
+  <ProcessorTime>2018-12-08T16:35:54+00:00</ProcessorTime>
+  <Parameters>
+    <Key>Quality</Key>
+    <Value>Best</Value>
+  </Parameters>
+  <Dependencies />
+  <BuildAsset />
+  <BuildOutput>
+    <string>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/wearethrowingitin.ogg</string>
+  </BuildOutput>
+</PipelineBuildEvent>

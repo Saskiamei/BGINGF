@@ -1,4 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background 1.xnb","TextureProcessor","Texture2DContent",4269,1536085,0.4688243
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background2.xnb","TextureProcessor","Texture2DContent",4299,1536085,0.064124
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/bgingf.xnb","TextureProcessor","Texture2DContent",3059,24661,0.0199474
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background 1.xnb","TextureProcessor","Texture2DContent",4269,1536085,0.4606211
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background2.xnb","TextureProcessor","Texture2DContent",4299,1536085,0.0588421
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/bgingf.xnb","TextureProcessor","Texture2DContent",3300,24661,0.0189489
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wearethrowingitin.mp3","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/wearethrowingitin.xnb","SongProcessor","SongContent",412194,135,0.7859242

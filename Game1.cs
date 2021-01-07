@@ -13,7 +13,7 @@ namespace BGINGF
 
         Texture2D playerSheetTxr, platformSheetTxr, whiteBox;
         SpriteFont uiFont, heartFont;
-        SoundEffect jumpSound, bumpSound, fanfareSound;
+        SoundEffect jumpSound, bumpSound, fanfareSound, backgroundSound;
 
         Point screenSize = new Point(800, 450);
         int levelNumber = 0;
@@ -49,7 +49,7 @@ namespace BGINGF
             platformSheetTxr = Content.Load<Texture2D>("bgingf");
             uiFont = Content.Load<SpriteFont>("UIFont");
             heartFont = Content.Load<SpriteFont>("HeartFont");
-            jumpSound = Content.Load<SoundEffect>("jump");
+            backgroundSound = Content.Load<SoundEffect>("wearethrowingitin");
             bumpSound = Content.Load<SoundEffect>("Bump");
             fanfareSound = Content.Load<SoundEffect>("fanfare");
 
@@ -60,8 +60,8 @@ namespace BGINGF
             mushroomSprite = new MushroomSprite(playerSheetTxr, whiteBox, new Vector2(200, 200));
             BuildLevels();
 
-            scrolling1 = new Scrolling(Content.Load<Texture2D>("Background 1"), new Rectangle(0, 0, 800, 450));
-            scrolling2 = new Scrolling(Content.Load<Texture2D>("Background2"), new Rectangle(800, 0, 800, 450));
+            scrolling1 = new Scrolling(Content.Load<Texture2D>("Background 1"), new Rectangle(0, 0, 800, 450), backgroundSound);
+            scrolling2 = new Scrolling(Content.Load<Texture2D>("Background2"), new Rectangle(800, 0, 800, 450), backgroundSound);
             
 
         }
