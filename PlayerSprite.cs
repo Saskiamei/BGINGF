@@ -2,10 +2,7 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Audio;
-using System;
 using System.Collections.Generic;
-using System.Text;
-using System.Diagnostics;
 
 namespace BGINGF
 {
@@ -16,13 +13,13 @@ namespace BGINGF
         const float jumpSpeed = 4f;
         const float walkSpeed = 100f;
         public int lives = 3;
-        SoundEffect jumpSound, bumpSound;
+        SoundEffect mushroomSound, deadSound;
 
-        public PlayerSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation, SoundEffect newJumpSound, SoundEffect newBumpSound)
+        public PlayerSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation, SoundEffect newMushroomSound, SoundEffect newDeadSound)
             : base(newSpriteSheet, newCollisionTxr, newLocation)
         {
-            jumpSound = newJumpSound;
-            bumpSound = newBumpSound;
+            mushroomSound = newMushroomSound;
+            deadSound = newDeadSound;
 
             spriteOrigin = new Vector2(0.5f, 1f);
             isColliding = true;
@@ -112,7 +109,7 @@ namespace BGINGF
             {
                 if (checkCollisionBelow(platform))
                 {
-                    Debug.WriteLine("boop!");
+                    mushroomSound.Play();
                     hasCollided = true;
                     while (checkCollision(platform)) spritePos.Y--;
                     spriteVelocity.Y = 0;
@@ -160,6 +157,7 @@ namespace BGINGF
 
         public void ResetPlayer(Vector2 newPos)
         {
+            deadSound.Play();
             spritePos = newPos;
             spriteVelocity = new Vector2();
             jumping = false;

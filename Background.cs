@@ -1,9 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
-using Microsoft.Xna.Framework.Audio;
-using System;
+using Microsoft.Xna.Framework.Input;
 using System.Collections.Generic;
-using System.Text;
 
 namespace BGINGF
 {
@@ -20,12 +18,11 @@ namespace BGINGF
 
     class Scrolling : Background
     {
-        SoundEffect backgroundSound;
-        public Scrolling (Texture2D newTexture, Rectangle newRectangle, SoundEffect newBackgroundSound)
+        
+        public Scrolling(Texture2D newTexture, Rectangle newRectangle)
         {
             texture = newTexture;
             rectangle = newRectangle;
-            backgroundSound = newBackgroundSound;
         }   
 
         public void Update()

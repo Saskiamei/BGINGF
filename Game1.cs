@@ -10,10 +10,11 @@ namespace BGINGF
     {
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
-
-        Texture2D playerSheetTxr, platformSheetTxr, whiteBox;
+        Scrolling scrolling1;
+        Scrolling scrolling2;
+        Texture2D playerSheetTxr, platformSheetTxr, mushroomTxr, whiteBox;
         SpriteFont uiFont, heartFont;
-        SoundEffect jumpSound, bumpSound, fanfareSound, backgroundSound;
+        SoundEffect mushroomSound, deadSound;
 
         Point screenSize = new Point(800, 450);
         int levelNumber = 0;
@@ -23,8 +24,7 @@ namespace BGINGF
         List<List<PlatformSprite>> Levels = new List<List<PlatformSprite>>();
         List<Vector2> mushrooms = new List<Vector2>();
 
-        Scrolling scrolling1;
-        Scrolling scrolling2;
+        
 
         public Game1()
         {
@@ -45,23 +45,27 @@ namespace BGINGF
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            playerSheetTxr = Content.Load<Texture2D>("JumpThing_spriteSheet1");
+            scrolling1 = new Scrolling(Content.Load<Texture2D>("Background 1"), new Rectangle(0, 0, 800, 450));
+            scrolling2 = new Scrolling(Content.Load<Texture2D>("Background2"), new Rectangle(800, 0, 800, 450));
+
+            playerSheetTxr = Content.Load<Texture2D>("wizardPlayer");
+            mushroomTxr = Content.Load<Texture2D>("mushroom");
             platformSheetTxr = Content.Load<Texture2D>("bgingf");
             uiFont = Content.Load<SpriteFont>("UIFont");
             heartFont = Content.Load<SpriteFont>("HeartFont");
-            backgroundSound = Content.Load<SoundEffect>("wearethrowingitin");
-            bumpSound = Content.Load<SoundEffect>("Bump");
-            fanfareSound = Content.Load<SoundEffect>("fanfare");
+            mushroomSound = Content.Load<SoundEffect>("Capture");
+            deadSound = Content.Load<SoundEffect>("Died");
+
+            
 
             whiteBox = new Texture2D(GraphicsDevice, 1, 1);
             whiteBox.SetData(new[] { Color.White });
 
-            playerSprite = new PlayerSprite(playerSheetTxr, whiteBox, new Vector2(100, 50), jumpSound, bumpSound);
-            mushroomSprite = new MushroomSprite(playerSheetTxr, whiteBox, new Vector2(200, 200));
+            playerSprite = new PlayerSprite(playerSheetTxr, whiteBox, new Vector2(100, 50), mushroomSound, deadSound);
+            mushroomSprite = new MushroomSprite(mushroomTxr, whiteBox, new Vector2(200, 200));
             BuildLevels();
 
-            scrolling1 = new Scrolling(Content.Load<Texture2D>("Background 1"), new Rectangle(0, 0, 800, 450), backgroundSound);
-            scrolling2 = new Scrolling(Content.Load<Texture2D>("Background2"), new Rectangle(800, 0, 800, 450), backgroundSound);
+           
             
 
         }
@@ -70,6 +74,15 @@ namespace BGINGF
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
+
+            //scrolling background
+            if (scrolling1.rectangle.X + scrolling1.texture.Width <= 0)
+                scrolling1.rectangle.X = scrolling2.rectangle.X + scrolling2.texture.Width;
+            if (scrolling2.rectangle.X + scrolling2.texture.Width <= 0)
+                scrolling2.rectangle.X = scrolling1.rectangle.X + scrolling1.texture.Width;
+
+            scrolling1.Update();
+            scrolling2.Update();
 
             playerSprite.Update(gameTime, Levels[levelNumber]);
             if (playerSprite.spritePos.Y > screenSize.Y + 50)
@@ -89,17 +102,10 @@ namespace BGINGF
                 if (levelNumber >= Levels.Count) levelNumber = 0;
                 mushroomSprite.spritePos = mushrooms[levelNumber];
                 playerSprite.ResetPlayer(new Vector2(100, 50));
-                fanfareSound.Play();
+                deadSound.Play();
             }
 
-            // scrolling background
-            if (scrolling1.rectangle.X + scrolling1.texture.Width <= 0)
-                scrolling1.rectangle.X = scrolling2.rectangle.X + scrolling2.texture.Width;
-            if (scrolling2.rectangle.X + scrolling2.texture.Width <= 0)
-                scrolling2.rectangle.X = scrolling1.rectangle.X + scrolling1.texture.Width;
-
-            scrolling1.Update();
-            scrolling2.Update();
+            
 
             base.Update(gameTime);
         }
@@ -110,8 +116,11 @@ namespace BGINGF
 
             _spriteBatch.Begin();
 
+            
+            scrolling1.Draw(_spriteBatch);
+            scrolling2.Draw(_spriteBatch);
             playerSprite.Draw(_spriteBatch, gameTime);
-
+            mushroomSprite.Draw(_spriteBatch, gameTime);
             foreach (PlatformSprite platform in Levels[levelNumber]) platform.Draw(_spriteBatch, gameTime);
 
             string livesString = "";
@@ -126,8 +135,7 @@ namespace BGINGF
             _spriteBatch.DrawString(uiFont, "Level " + (levelNumber + 1), new Vector2(screenSize.X - 15 - uiFont.MeasureString("level" + levelNumber + 1).X, 5), Color.White);
 
 
-            scrolling1.Draw(_spriteBatch);
-            scrolling2.Draw(_spriteBatch);
+            
 
             _spriteBatch.End();
 
@@ -143,7 +151,7 @@ namespace BGINGF
             Levels.Add(new List<PlatformSprite>());
             Levels[1].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 400)));
             Levels[1].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 350)));
-            mushrooms.Add(new Vector2(400, 200));
+            mushrooms.Add(new Vector2(300, 200));
         }
     }
 }

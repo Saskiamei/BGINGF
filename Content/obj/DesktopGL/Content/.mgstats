@@ -1,5 +1,11 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/background 1.xnb","TextureProcessor","Texture2DContent",4269,1536085,0.2591095
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Background.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/Background.xnb","SoundEffectProcessor","SoundEffectContent",3009480,3009489,0.4188265
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/background2.xnb","TextureProcessor","Texture2DContent",4299,1536085,0.0656808
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/bgingf.xnb","TextureProcessor","Texture2DContent",3300,24661,0.2433595
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wearethrowingitin.mp3","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/wearethrowingitin.xnb","SongProcessor","SongContent",412194,135,0.8841365
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Capture.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/Capture.xnb","SoundEffectProcessor","SoundEffectContent",797424,797433,0.180088
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Died.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/Died.xnb","SoundEffectProcessor","SoundEffectContent",996756,996765,0.1760291
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/HeartFont.spritefont","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/HeartFont.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21538,0.3432271
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/mushroom.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/mushroom.xnb","TextureProcessor","Texture2DContent",1282,9301,0.0412097
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/UIFont.spritefont","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/UIFont.xnb","FontDescriptionProcessor","SpriteFontContent",2016,21538,0.1229106
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wizardPlayer.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/wizardPlayer.xnb","TextureProcessor","Texture2DContent",24118,73813,0.2205173

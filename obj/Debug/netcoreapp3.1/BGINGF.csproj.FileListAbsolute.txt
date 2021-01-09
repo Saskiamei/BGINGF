@@ -24,3 +24,15 @@ C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.pdb
 C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.genruntimeconfig.cache
 C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\bgingf.xnb
 C:\Users\dream\source\repos\BGINGF\BGINGF\obj\Debug\netcoreapp3.1\BGINGF.csprojAssemblyReference.cache
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\died.ogg
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\died.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\mushroom.ogg
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\mushroom.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\wearethrowingitin.ogg
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\wearethrowingitin.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\wizardPlayer.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\HeartFont.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\UIFont.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\capture.ogg
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\capture.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\Background.xnb

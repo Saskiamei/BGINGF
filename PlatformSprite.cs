@@ -10,7 +10,7 @@ namespace BGINGF
     class PlatformSprite : Sprite
     {
         public PlatformSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation)
-   : base(newSpriteSheet, newCollisionTxr, newLocation)
+            : base(newSpriteSheet, newCollisionTxr, newLocation)
         {
             spriteOrigin = new Vector2(0.5f, 0f);
             isColliding = true;
