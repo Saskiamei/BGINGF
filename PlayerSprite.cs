@@ -109,7 +109,7 @@ namespace BGINGF
             {
                 if (checkCollisionBelow(platform))
                 {
-                    mushroomSound.Play();
+                    
                     hasCollided = true;
                     while (checkCollision(platform)) spritePos.Y--;
                     spriteVelocity.Y = 0;
@@ -157,13 +157,14 @@ namespace BGINGF
 
         public void ResetPlayer(Vector2 newPos)
         {
-            deadSound.Play();
+            
             spritePos = newPos;
             spriteVelocity = new Vector2();
             jumping = false;
             walking = false;
             falling = true;
             jumpIsPressed = false;
+            deadSound.Play();
         }
     }
 }

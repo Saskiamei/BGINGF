@@ -14,7 +14,7 @@ namespace BGINGF
         Scrolling scrolling2;
         Texture2D playerSheetTxr, platformSheetTxr, mushroomTxr, whiteBox;
         SpriteFont uiFont, heartFont;
-        SoundEffect mushroomSound, deadSound;
+        SoundEffect mushroomSound, deadSound, backgroundSound;
 
         Point screenSize = new Point(800, 450);
         int levelNumber = 0;
@@ -45,8 +45,8 @@ namespace BGINGF
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            scrolling1 = new Scrolling(Content.Load<Texture2D>("Background 1"), new Rectangle(0, 0, 800, 450));
-            scrolling2 = new Scrolling(Content.Load<Texture2D>("Background2"), new Rectangle(800, 0, 800, 450));
+            scrolling1 = new Scrolling(Content.Load<Texture2D>("Background 1"), new Rectangle(0, 0, 800, 450), backgroundSound);
+            scrolling2 = new Scrolling(Content.Load<Texture2D>("Background2"), new Rectangle(800, 0, 800, 450), backgroundSound );
 
             playerSheetTxr = Content.Load<Texture2D>("wizardPlayer");
             mushroomTxr = Content.Load<Texture2D>("mushroom");
@@ -55,6 +55,7 @@ namespace BGINGF
             heartFont = Content.Load<SpriteFont>("HeartFont");
             mushroomSound = Content.Load<SoundEffect>("Capture");
             deadSound = Content.Load<SoundEffect>("Died");
+            backgroundSound = Content.Load<SoundEffect>("Background");
 
             
 
@@ -84,6 +85,8 @@ namespace BGINGF
             scrolling1.Update();
             scrolling2.Update();
 
+            //player sprite, levels and cllision checks
+
             playerSprite.Update(gameTime, Levels[levelNumber]);
             if (playerSprite.spritePos.Y > screenSize.Y + 50)
             {
@@ -102,7 +105,7 @@ namespace BGINGF
                 if (levelNumber >= Levels.Count) levelNumber = 0;
                 mushroomSprite.spritePos = mushrooms[levelNumber];
                 playerSprite.ResetPlayer(new Vector2(100, 50));
-                deadSound.Play();
+                mushroomSound.Play();
             }
 
             
@@ -144,14 +147,18 @@ namespace BGINGF
         void BuildLevels()
         {
             Levels.Add(new List<PlatformSprite>());
+            mushrooms.Add(new Vector2(200, 200));
             Levels[0].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 300)));
             Levels[0].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 300)));
-            mushrooms.Add(new Vector2(200, 200));
+            Levels[0].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(375, 250)));
+            Levels[0].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 200)));
+            
 
             Levels.Add(new List<PlatformSprite>());
+            mushrooms.Add(new Vector2(150, 200));
             Levels[1].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 400)));
             Levels[1].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 350)));
-            mushrooms.Add(new Vector2(300, 200));
+            
         }
     }
 }
