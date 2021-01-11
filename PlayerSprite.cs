@@ -13,12 +13,12 @@ namespace BGINGF
         const float jumpSpeed = 4f;
         const float walkSpeed = 100f;
         public int lives = 3;
-        SoundEffect mushroomSound, deadSound;
+        SoundEffect deadSound;
 
-        public PlayerSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation, SoundEffect newMushroomSound, SoundEffect newDeadSound)
+        public PlayerSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation,  SoundEffect newDeadSound)
             : base(newSpriteSheet, newCollisionTxr, newLocation)
         {
-            mushroomSound = newMushroomSound;
+            
             deadSound = newDeadSound;
 
             spriteOrigin = new Vector2(0.5f, 1f);

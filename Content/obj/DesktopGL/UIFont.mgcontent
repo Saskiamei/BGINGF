@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SourceFile>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/UIFont.spritefont</SourceFile>
-  <SourceTime>2021-01-09T14:31:23.5101921+00:00</SourceTime>
+  <SourceTime>2021-01-10T14:04:47.3822532+00:00</SourceTime>
   <DestFile>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/UIFont.xnb</DestFile>
-  <DestTime>2021-01-09T18:06:21.2427234+00:00</DestTime>
+  <DestTime>2021-01-11T13:44:22.8211814+00:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2018-12-08T16:35:54+00:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

@@ -1,6 +1,5 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/background 1.xnb","TextureProcessor","Texture2DContent",4269,1536085,0.2591095
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Background.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/Background.xnb","SoundEffectProcessor","SoundEffectContent",3009480,3009489,0.4188265
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/background2.xnb","TextureProcessor","Texture2DContent",4299,1536085,0.0656808
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/bgingf.xnb","TextureProcessor","Texture2DContent",3300,24661,0.2433595
 "C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Capture.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Content/Capture.xnb","SoundEffectProcessor","SoundEffectContent",797424,797433,0.180088

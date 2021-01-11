@@ -25,12 +25,6 @@
 /processorParam:TextureFormat=Color
 /build:background 1.png
 
-#begin Background.wav
-/importer:WavImporter
-/processor:SoundEffectProcessor
-/processorParam:Quality=Best
-/build:Background.wav
-
 #begin background2.png
 /importer:TextureImporter
 /processor:TextureProcessor

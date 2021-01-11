@@ -1,11 +1,10 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background 1.xnb","TextureProcessor","Texture2DContent",4269,1536085,0.1937864
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Background.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Background.xnb","SoundEffectProcessor","SoundEffectContent",3009480,3009489,0.2597392
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background2.xnb","TextureProcessor","Texture2DContent",4299,1536085,0.0548528
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/bgingf.xnb","TextureProcessor","Texture2DContent",3300,24661,0.0169544
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Capture.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Capture.xnb","SoundEffectProcessor","SoundEffectContent",797424,797433,0.204452
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Died.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Died.xnb","SoundEffectProcessor","SoundEffectContent",996756,996765,0.201463
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/HeartFont.spritefont","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/HeartFont.xnb","FontDescriptionProcessor","SpriteFontContent",2008,21521,0.2468485
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/mushroom.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/mushroom.xnb","TextureProcessor","Texture2DContent",1282,9301,0.0209448
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/UIFont.spritefont","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/UIFont.xnb","FontDescriptionProcessor","SpriteFontContent",2016,21521,0.0438824
-"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wizardPlayer.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/wizardPlayer.xnb","TextureProcessor","Texture2DContent",24118,73813,0.019946
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background 1.xnb","TextureProcessor","Texture2DContent",4269,1536085,0.447944
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/background2.xnb","TextureProcessor","Texture2DContent",4299,1536085,0.056848
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/bgingf.xnb","TextureProcessor","Texture2DContent",3300,24661,0.0169553
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Capture.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Capture.xnb","SoundEffectProcessor","SoundEffectContent",797424,797433,0.3690138
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Died.wav","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/Died.xnb","SoundEffectProcessor","SoundEffectContent",996756,996765,0.1964732
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/HeartFont.spritefont","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/HeartFont.xnb","FontDescriptionProcessor","SpriteFontContent",2014,21521,0.2922174
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/mushroom.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/mushroom.xnb","TextureProcessor","Texture2DContent",1282,9301,0.0269273
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/UIFont.spritefont","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/UIFont.xnb","FontDescriptionProcessor","SpriteFontContent",2013,37905,0.0588422
+"C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wizardPlayer.png","C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bin/DesktopGL/wizardPlayer.xnb","TextureProcessor","Texture2DContent",24118,73813,0.0309169
