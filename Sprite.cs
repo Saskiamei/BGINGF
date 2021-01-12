@@ -10,6 +10,7 @@ namespace BGINGF
     class Sprite
     {
 
+
         Texture2D spriteSheet, collisionTexture;
 
         public Vector2 spritePos, spriteVelocity,
@@ -17,7 +18,6 @@ namespace BGINGF
             spriteScale,
             collisionInsetMin, collisionInsetMax;
 
-    
         public bool flipped,
             isDead,
             isColliding, drawCollision;
@@ -204,7 +204,5 @@ namespace BGINGF
         {
             return new Vector2(getEdgeLeftForCollision() + (getWidthForCollision() * 0.5f), getEdgeTopForCollision() + (getHeightForCollision() * 0.5f));
         }
-
-
     }
 }

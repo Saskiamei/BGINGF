@@ -36,3 +36,6 @@ C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\UIFont
 C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\capture.ogg
 C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\capture.xnb
 C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\Background.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\BigFont.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\particle.xnb
+C:\Users\dream\source\repos\BGINGF\BGINGF\bin\Debug\netcoreapp3.1\Content\Potion.xnb

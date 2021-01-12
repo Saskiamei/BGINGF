@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Audio;
 using System.Collections.Generic;
+using System;
 
 namespace BGINGF
 {
@@ -15,10 +16,9 @@ namespace BGINGF
         public int lives = 3;
         SoundEffect deadSound;
 
-        public PlayerSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation,  SoundEffect newDeadSound)
+        public PlayerSprite(Texture2D newSpriteSheet, Texture2D newCollisionTxr, Vector2 newLocation, SoundEffect newDeadSound)
             : base(newSpriteSheet, newCollisionTxr, newLocation)
         {
-            
             deadSound = newDeadSound;
 
             spriteOrigin = new Vector2(0.5f, 1f);
@@ -108,8 +108,7 @@ namespace BGINGF
             foreach (PlatformSprite platform in platforms)
             {
                 if (checkCollisionBelow(platform))
-                {
-                    
+                { 
                     hasCollided = true;
                     while (checkCollision(platform)) spritePos.Y--;
                     spriteVelocity.Y = 0;
@@ -157,7 +156,6 @@ namespace BGINGF
 
         public void ResetPlayer(Vector2 newPos)
         {
-            
             spritePos = newPos;
             spriteVelocity = new Vector2();
             jumping = false;
