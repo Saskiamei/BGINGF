@@ -197,18 +197,18 @@ namespace BGINGF
             //Level 5
             Levels.Add(new List<PlatformSprite>());
             Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(200, 150)));
+            Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(450, 100)));
             Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(350, 100)));
-            Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 100)));
             Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 150)));
             mushrooms.Add(new Vector2(550, 150));
 
             //Level 6
             Levels.Add(new List<PlatformSprite>());
-            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(200, 150)));
-            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(300, 100)));
-            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 100)));
-            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 150)));
-            mushrooms.Add(new Vector2(550, 150));
+            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(600, 300)));
+            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 200)));
+            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(150, 100)));
+            Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 150)));
+            mushrooms.Add(new Vector2(650, 250));
 
         }
     }
