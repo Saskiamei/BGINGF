@@ -215,9 +215,18 @@ namespace BGINGF
             Levels.Add(new List<PlatformSprite>());
             Levels[8].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 100)));
             Levels[8].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(300, 200)));
-            Levels[8].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 300)));
-            Levels[8].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(700, 400)));
-            mushrooms.Add(new Vector2(750, 425));
+            Levels[8].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 200)));
+            Levels[8].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(700, 250)));
+            mushrooms.Add(new Vector2(750, 200));
+
+            //Level 10
+            Levels.Add(new List<PlatformSprite>());
+            Levels[9].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 100)));
+            Levels[9].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(300, 300)));
+            Levels[9].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(400, 250)));
+            Levels[9].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 200)));
+            Levels[9].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(700, 400)));
+            mushrooms.Add(new Vector2(750, 375));
         }
     }
 }
