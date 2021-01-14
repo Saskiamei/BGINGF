@@ -18,7 +18,7 @@ namespace BGINGF
 
         Texture2D playerTxr, platformSheetTxr, mushroomTxr, whiteBox;
         
-        SpriteFont uiFont, heartFont, bigFont;
+        SpriteFont uiFont, heartFont;
         SoundEffect mushroomSound, deadSound;
         Point screenSize = new Point(800, 450);
         int levelNumber = 0;
@@ -61,7 +61,6 @@ namespace BGINGF
             mushroomTxr = Content.Load<Texture2D>("mushroom");
             platformSheetTxr = Content.Load<Texture2D>("bgingf");
             uiFont = Content.Load<SpriteFont>("UIFont");
-            bigFont = Content.Load<SpriteFont>("BigFont");
             heartFont = Content.Load<SpriteFont>("HeartFont");
             mushroomSound = Content.Load<SoundEffect>("Capture");
             deadSound = Content.Load<SoundEffect>("Died");
@@ -141,22 +140,6 @@ namespace BGINGF
                 new Vector2(screenSize.X - 15 - uiFont.MeasureString("level" + levelNumber + 1).X, 5),
                 Color.White);
 
-            if (playerSprite.lives <= 0)
-            {
-                Vector2 textSize = bigFont.MeasureString("GAME OVER");
-
-                _spriteBatch.DrawString(
-                    bigFont,
-                    "GAME OVER",
-                    new Vector2((screenSize.X / 2) - (textSize.X / 2) + 8, (screenSize.Y / 2) - (textSize.Y / 2) + 8),
-                    Color.Black);
-
-                _spriteBatch.DrawString(
-                    bigFont,
-                    "GAME OVER",
-                    new Vector2((screenSize.X / 2) - (textSize.X / 2), (screenSize.Y / 2) - (textSize.Y / 2)),
-                    Color.White);
-            }
             _spriteBatch.End();
 
             base.Draw(gameTime);
@@ -182,16 +165,16 @@ namespace BGINGF
             //Lvel 3
             Levels.Add(new List<PlatformSprite>());
             Levels[2].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(150, 200)));
-            Levels[2].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(400, 250)));
-            Levels[2].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(300, 225)));
-            mushrooms.Add(new Vector2(300, 150));
+            Levels[2].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(300, 300)));
+            Levels[2].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(400, 300)));
+            mushrooms.Add(new Vector2(400, 325));
 
             //Level 4
             Levels.Add(new List<PlatformSprite>());
             Levels[3].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 200)));
             Levels[3].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(375, 250)));
             Levels[3].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 300)));
-            Levels[3].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 400)));
+            Levels[3].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 350)));
             mushrooms.Add(new Vector2(550, 200));
 
             //Level 5
@@ -200,7 +183,7 @@ namespace BGINGF
             Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(450, 100)));
             Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(350, 100)));
             Levels[4].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 150)));
-            mushrooms.Add(new Vector2(550, 150));
+            mushrooms.Add(new Vector2(550, 125));
 
             //Level 6
             Levels.Add(new List<PlatformSprite>());
@@ -209,6 +192,14 @@ namespace BGINGF
             Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(150, 100)));
             Levels[5].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(250, 150)));
             mushrooms.Add(new Vector2(650, 250));
+
+            //Level 7
+            Levels.Add(new List<PlatformSprite>());
+            Levels[6].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(100, 100)));
+            Levels[6].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(300, 200)));
+            Levels[6].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(500, 300)));
+            Levels[6].Add(new PlatformSprite(platformSheetTxr, whiteBox, new Vector2(700, 400)));
+            mushrooms.Add(new Vector2(750, 425));
 
         }
     }

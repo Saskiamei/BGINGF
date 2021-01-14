@@ -7,7 +7,6 @@
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background 1.png</File>
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/background2.png</File>
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/bgingf.png</File>
-    <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/BigFont.spritefont</File>
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Capture.wav</File>
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/Died.wav</File>
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/HeartFont.spritefont</File>
@@ -16,7 +15,6 @@
     <File>C:/Users/dream/source/repos/BGINGF/BGINGF/Content/wizardPlayer.png</File>
   </SourceFiles>
   <DestFiles>
-    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
